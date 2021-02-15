@@ -2,7 +2,7 @@
   "name": "saveserver",
   "version": "0.0.1",
   "description": "A nodejs server allowing you to make daily backups of your files.",
-  "main": "index.js",
+  "main": "server.js",
   "dependencies": {
     "body-parser": "^1.19.0",
     "chalk": "^4.1.0",
