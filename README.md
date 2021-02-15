@@ -20,7 +20,7 @@ npm install
 ## Usage
 
 ```sh
-node index.js
+node server.js
 ```
 
 ## Run tests
