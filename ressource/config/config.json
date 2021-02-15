@@ -1,5 +1,8 @@
 {
-  "directoryToBackup": "",
-  "directoryOfBackup": "",
-  "nameOfBackup": ""
+  "mysql":{
+    "host":"",
+    "user":"",
+    "mdp":"",
+    "database":""
+  }
 }

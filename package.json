@@ -11,6 +11,8 @@
     "fs-extra": "^9.1.0",
     "http": "0.0.1-security",
     "moment": "^2.29.1",
+    "mysql": "^2.18.1",
+    "node-schedule": "^2.0.0",
     "shelljs": "^0.8.4"
   },
   "scripts": {

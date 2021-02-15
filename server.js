@@ -3,8 +3,6 @@ const logger = require('./src/modules/logger')
 const backup = require('./src/modules/backup')
 const app = require('./src/modules/app');
 
-const save = new backup()
-
 const normalizePort = val => {
     const port = parseInt(val, 10);
 
@@ -18,7 +16,6 @@ const normalizePort = val => {
 };
 const port = normalizePort(process.env.PORT || '3000');
 app.set('port', port);
-await save.scheduleSave()
 
 const errorHandler = error => {
     if (error.syscall !== 'listen') {
